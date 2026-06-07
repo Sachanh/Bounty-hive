@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "name": "BountyFactory",
+      "path": "./contracts/bounty_factory.tact",
+      "output": "./build/BountyFactory",
+      "options": {
+        "debug": true,
+        "external": true
+      }
+    },
+    {
+      "name": "Bounty",
+      "path": "./contracts/bounty.tact",
+      "output": "./build/Bounty",
+      "options": {
+        "debug": true,
+        "external": true
+      }
+    }
+  ]
+}
