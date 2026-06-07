@@ -6,7 +6,9 @@
   "scripts": {
     "build": "blueprint build",
     "test": "jest",
-    "deploy": "blueprint run"
+    "deploy": "blueprint run",
+    "deploy:testnet": "blueprint run deployBountyManagerTestnet",
+    "deploy:mainnet": "blueprint run deployBountyManagerMainnet"
   },
   "devDependencies": {
     "@ton/blueprint": "^0.28.0",
@@ -19,9 +21,11 @@
     "typescript": "^5.5.0"
   },
   "dependencies": {
+    "@tact-lang/compiler": "^1.5.0",
+    "@ton-community/func-js": "^0.11.0",
     "@ton/core": "^0.59.0",
     "@ton/crypto": "^3.3.0",
-    "@ton/ton": "^15.0.0",
-    "@tact-lang/compiler": "^1.5.0"
+    "@ton/tolk-js": "^1.4.1",
+    "@ton/ton": "^15.0.0"
   }
 }

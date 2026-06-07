@@ -1,18 +1,18 @@
 {
   "projects": [
     {
-      "name": "BountyFactory",
-      "path": "./contracts/bounty_factory.tact",
-      "output": "./build/BountyFactory",
+      "name": "BountyManager",
+      "path": "./contracts/bounty_manager.tact",
+      "output": "./build/BountyManager",
       "options": {
         "debug": true,
         "external": true
       }
     },
     {
-      "name": "Bounty",
-      "path": "./contracts/bounty.tact",
-      "output": "./build/Bounty",
+      "name": "PayoutDistributor",
+      "path": "./contracts/payout_distributor.tact",
+      "output": "./build/PayoutDistributor",
       "options": {
         "debug": true,
         "external": true
